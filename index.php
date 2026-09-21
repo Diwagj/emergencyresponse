@@ -9,6 +9,9 @@
 	<div class="navigation">
 		<nav>
 			<ul>
+                <li>
+                    <h2>Emergency Response Mapping</h2>
+                </li>
 				<li>
 					<a href="#home.php">Home</a>
 				</li>
