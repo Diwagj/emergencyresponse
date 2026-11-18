@@ -10,7 +10,7 @@ if (isset($_SESSION['user_id'])) {
 }
 
 require_once __DIR__ . '/config/database.php';
-
+$pdo = db();
 $error = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -98,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
 
                 <button type="submit" class="btn-login">Sign In</button>
-                <a href="index.php" class="back-link">&larr; Back to Public Portal</a>
+                <a href="index.php" class="back-link">Back to Public Portal</a>
             </form>
         </div>
     </main>
